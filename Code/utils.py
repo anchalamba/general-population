@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 def generalPopDF():
     """
-    generalPopDF pulls per-county data from three CDPH sources, cleans, and merges them into one dataframe
+    generalPopDF pulls per-county COVID-19 data from three CDPH sources, cleans, and merges it into one dataframe
     """
     # pulling in tests/cases data from CDPH
     tests_cases = pd.read_csv("https://data.chhs.ca.gov/dataset/f333528b-4d38-4814-bebb-12db1f10f535/resource/046cdd2b-31e5-4d34-9ed3-b48cdbc4be7a/download/covid19cases_test.csv", \
@@ -132,7 +132,6 @@ def generalPopDF():
     # add 'County' to each value in the 'County' column
     final_df['County'] = final_df['County'].astype(str) + ' County'
 
-    from pathlib import Path
     filepath = Path('general_population.csv')
     filepath.parent.mkdir(parents=True, exist_ok=True)
     final_df.to_csv(filepath, index=False)
