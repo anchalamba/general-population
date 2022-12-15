@@ -1,1 +1,5 @@
 This project aims to compare the infection, testing, and vaccination rates between the incarcerated population and general population per county in California. 
+
+We created a general population dataset from three California Department of Public Health (CDPH) sources: (1) [COVID-19 Cases and Tests Data](https://data.chhs.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state), (2) [COVID-19 Hospitalizations Data](https://data.ca.gov/dataset/covid-19-hospital-data1), and (3) [COVID-19 Vaccinations Data](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data).
+
+[Here](https://docs.google.com/document/d/1d-PkM3s3SorPtotlGKZfzX9av5lEaUio4aK-8DaCEX4/edit?usp=sharing) is the code documentation for how data from each source was pulled, cleaned, and merged together into the final dataframe, as well as concerns . [Here](https://docs.google.com/spreadsheets/d/1BwgTPnUbJPn25yfbjsm6uo3LlEorqG23wErnbmlDPmU/edit?usp=sharing) is the documentation of each source, including which columns were chosen and their definitions. 
