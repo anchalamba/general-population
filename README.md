@@ -11,7 +11,7 @@ Please contact info@covidincustody.org for any questions or concerns.
 
 ## Usage
 
-There are no prerequisites or installation required. Data from all sources will be pulled directly from the webpage, and an output csv (general_population.csv) will be stored in the same directory as `utils.py` and `run.py`. Once both files are downloaded, please run the following:
+There are no prerequisites or installation required. Data from all sources will be pulled directly from the webpage, and an output csv (general_population.csv) will be stored in the same directory as `utils.py` and `run.py`. Once both code files are downloaded, please run the following:
 
 ```bash
 python3 run.py
